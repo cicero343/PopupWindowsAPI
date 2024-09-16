@@ -1,9 +1,10 @@
 # PopupWindowsAPI
 
-Overview
+# Overview
 
 PopupWindowsAPI is a simple C program that demonstrates the use of the Windows API to create a graphical user interface (GUI) application. The program displays a window with several buttons that allow users to view system information, disk space, uptime, network information, date and time, and memory stats. It also includes buttons to open system utilities such as Command Prompt and Task Manager.
-Features
+
+# Features
 
     System Information: Displays the computer name and Windows version.
     Disk Space: Shows the available free space on the C: drive.
@@ -15,11 +16,11 @@ Features
     Task Manager: Opens Task Manager.
     User Management: Buttons to open lusrmgr.msc (Local Users and Groups), Device Manager, and Registry Editor.
 
-Prerequisites
+# Prerequisites
 
     GCC Compiler: Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar GCC distribution.
 
-Compilation and Execution
+# Compilation and Execution
 
 To compile the program, open Command Prompt and navigate to the directory containing the source code. Run the following command:
 
@@ -33,7 +34,7 @@ sh
 
 PopupWindowsAPI.exe
 
-Usage
+# Usage
 
     System Info: Click the "System Info" button to view system information.
     Disk Space: Click the "Disk Space" button to view available disk space.
@@ -45,11 +46,11 @@ Usage
     Task Manager: Click the "Task Manager" button to open Task Manager.
     User Management: Click the buttons for lusrmgr.msc, Device Manager, and Registry Editor to access these system utilities.
 
-Notes
+# Notes
 
     The Network Info button currently displays a placeholder message as the feature is not yet implemented.
     Ensure the GCC compiler path is correctly set in your system environment variables for the compilation to work smoothly.
 
-License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
