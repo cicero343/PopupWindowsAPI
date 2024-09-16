@@ -4,6 +4,8 @@
 
 PopupWindowsAPI is a simple C program that demonstrates the use of the Windows API to create a graphical user interface (GUI) application. The program displays a window with several buttons that allow users to view system information, disk space, uptime, network information, date and time, and memory stats. It also includes buttons to open system utilities such as Command Prompt and Task Manager.
 
+![image](https://github.com/user-attachments/assets/6e4dcbcf-8859-4b39-bfa1-34aaaf1bd378)
+
 # Features
 
 - **System Information:** Displays the computer name, Windows version, available free space on the C: drive, system uptime in seconds, the current date and time, and displays total and available physical memory.
