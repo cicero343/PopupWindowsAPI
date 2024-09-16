@@ -6,24 +6,22 @@ PopupWindowsAPI is a simple C program that demonstrates the use of the Windows A
 
 # Features
 
-    System Information: Displays the computer name, Windows version, available free space on the C: drive, system uptime in           seconds, the current date and time, and displays total and available physical memory.
-    
-    Open CMD: Opens Command Prompt.
-    Task Manager: Opens Task Manager.
-    Local Users_Groups: Opens lusrmgr.msc (Local Users and Groups).
-    Device Manager: Opens Device Manager.
-    Registry Editor: Opens Registry Editor.
-    
+- **System Information:** Displays the computer name, Windows version, available free space on the C: drive, system uptime in seconds, the current date and time, and displays total and available physical memory.
+- **Open CMD:** Opens Command Prompt.
+- **Task Manager:** Opens Task Manager.
+- **Local Users & Groups:** Opens lusrmgr.msc (Local Users and Groups).
+- **Device Manager:** Opens Device Manager.
+- **Registry Editor:** Opens Registry Editor.
+
 # Prerequisites
 
-    GCC Compiler: Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar     GCC distribution.
+- **GCC Compiler:** Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar GCC distribution.
 
 # Compilation and Execution
 
 To compile the program, open Command Prompt and navigate to the directory containing the source code. Run the following command:
 
-sh
-
+```cmd
 gcc -o PopupWindowsAPI.exe PopupWindowsAPI.c
 
 This will generate an executable named PopupWindowsAPI.exe. You can then run the program by executing:
