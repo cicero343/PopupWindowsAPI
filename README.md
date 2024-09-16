@@ -6,19 +6,17 @@ PopupWindowsAPI is a simple C program that demonstrates the use of the Windows A
 
 # Features
 
-    System Information: Displays the computer name and Windows version.
-    Disk Space: Shows the available free space on the C: drive.
-    Uptime: Displays the system uptime in seconds.
-    Network Info: Placeholder for future network information (currently not implemented).
-    Date & Time: Shows the current date and time.
-    Memory Stats: Displays total and available physical memory.
-    Open CMD: Launches Command Prompt.
+    System Information: Displays the computer name, Windows version, available free space on the C: drive, system uptime in           seconds, the current date and time, and displays total and available physical memory.
+    
+    Open CMD: Opens Command Prompt.
     Task Manager: Opens Task Manager.
-    User Management: Buttons to open lusrmgr.msc (Local Users and Groups), Device Manager, and Registry Editor.
-
+    Local Users_Groups: Opens lusrmgr.msc (Local Users and Groups).
+    Device Manager: Opens Device Manager.
+    Registry Editor: Opens Registry Editor.
+    
 # Prerequisites
 
-    GCC Compiler: Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar GCC distribution.
+    GCC Compiler: Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar     GCC distribution.
 
 # Compilation and Execution
 
@@ -37,18 +35,14 @@ PopupWindowsAPI.exe
 # Usage
 
     System Info: Click the "System Info" button to view system information.
-    Disk Space: Click the "Disk Space" button to view available disk space.
-    Uptime: Click the "Uptime" button to view system uptime.
-    Network Info: Click the "Network Info" button to display network information (currently a placeholder).
-    Date & Time: Click the "Date & Time" button to view the current date and time.
-    Memory Stats: Click the "Memory Stats" button to view memory statistics.
-    Open CMD: Click the "Open CMD" button to launch Command Prompt.
+    Open CMD: Click the "Open CMD" to open Command Prompt.
     Task Manager: Click the "Task Manager" button to open Task Manager.
-    User Management: Click the buttons for lusrmgr.msc, Device Manager, and Registry Editor to access these system utilities.
-
+    Local Users_Groups: Click the button to open lusrmgr.msc.
+    Device Manager: Click the button to open Device Manager.
+    Registry Editor: Click the button to open Registry Editor.
+    
 # Notes
 
-    The Network Info button currently displays a placeholder message as the feature is not yet implemented.
     Ensure the GCC compiler path is correctly set in your system environment variables for the compilation to work smoothly.
 
 # License
