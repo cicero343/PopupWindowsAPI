@@ -23,6 +23,7 @@ To compile the program, open Command Prompt and navigate to the directory contai
 
 ```cmd
 gcc -o PopupWindowsAPI.exe PopupWindowsAPI.c
+```
 
 This will generate an executable named PopupWindowsAPI.exe. You can then run the program by executing:
 
