@@ -15,19 +15,46 @@ PopupWindowsAPI is a simple C program that demonstrates the use of the Windows A
 - **Device Manager:** Opens Device Manager.
 - **Registry Editor:** Opens Registry Editor.
 
-# Prerequisites
+# Installation
 
-- **GCC Compiler:** Ensure you have GCC installed and available in your system's PATH. For Windows, you can use MinGW or a similar GCC distribution.
+You can install and compile the program using one of the following methods:
 
-# Compilation and Execution
+- Option 1: Automated Build Script (build.bat)
 
-To compile the program, open Command Prompt and navigate to the directory containing the source code. Run the following command:
+This method uses Chocolatey to install GCC if not already installed.
+
+    Download or clone the repository to your local machine.
+    Run the build.bat file located in the project directory. The script will:
+        Check if GCC is installed; if not, it will install it via Chocolatey.
+        Compile the PopupWindowsAPI.c file and generate the PopupWindowsAPI.exe executable.
+
+To run the program, simply double-click on the generated PopupWindowsAPI.exe.
+
+- **Option 2:** Visual Studio Code (with tasks.json)
+
+    Make sure gcc is installed on your system.
+    Open the project in Visual Studio Code.
+    Use the built-in task runner by navigating to Terminal > Run Build Task. This will compile the code using the provided tasks.json.
+    After the build, run PopupWindowsAPI.exe to execute the program.
+
+- Option 3: Manual GCC Installation and Compilation
+
+If you'd rather manually install and compile the program:
+
+    Install GCC:
+        For Windows, you can install GCC via MinGW, MSYS2, or another GCC distribution.
+        Ensure that gcc is added to your system's PATH.
+
+    Compile and Run:
+        Navigate to the directory containing the source code.
+        Run the following command to compile the program:
 
 ```cmd
 gcc -o PopupWindowsAPI.exe PopupWindowsAPI.c
 ```
 
-This will generate an executable named PopupWindowsAPI.exe. You can then run the program by executing:
+    This will generate an executable named PopupWindowsAPI.exe.
+    To run the program, execute the following in Command Prompt:
 
 ```cmd
 PopupWindowsAPI.exe
@@ -41,10 +68,6 @@ PopupWindowsAPI.exe
     Local Users_Groups: Click the button to open lusrmgr.msc.
     Device Manager: Click the button to open Device Manager.
     Registry Editor: Click the button to open Registry Editor.
-    
-# Notes
-
-    Ensure the GCC compiler path is correctly set in your system environment variables for the compilation to work smoothly.
 
 # License
 
