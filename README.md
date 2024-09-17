@@ -62,8 +62,9 @@ If you'd rather manually install and compile the program:
 gcc -o PopupWindowsAPI.exe PopupWindowsAPI.c
 ```
 
-    This will generate an executable named PopupWindowsAPI.exe.
-    To run the program, execute the following in Command Prompt:
+This will generate an executable named PopupWindowsAPI.exe.
+
+To run the program, execute the following in Command Prompt:
 
 ```cmd
 PopupWindowsAPI.exe
