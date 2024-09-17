@@ -44,13 +44,13 @@ cd PopupWindowsAPI
 
 <h3> Option 2: Visual Studio Code (with tasks.json) </h3>
 
-    - Make sure gcc is installed on your system.
+1) Make sure gcc is installed on your system.
     
-    - Open the project in Visual Studio Code.
+2) Open the project in Visual Studio Code.
     
-    - Use the built-in task runner by navigating to Terminal > Run Build Task. This will compile the code using the provided tasks.json.
+3) Use the built-in task runner by navigating to Terminal > Run Build Task. This will compile the code using the provided tasks.json.
     
-    - After the build, run PopupWindowsAPI.exe to execute the program.
+4) After the build, run PopupWindowsAPI.exe to execute the program.
 
 <h3> Option 3: Manual GCC Installation and Compilation </h3>
 
