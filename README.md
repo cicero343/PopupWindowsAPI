@@ -29,18 +29,18 @@ This method uses Chocolatey to install GCC if not already installed.
 git clone https://github.com/cicero343/PopupWindowsAPI.git
 ```
 
-- Navigate to the cloned repository folder:
+2) Navigate to the cloned repository folder:
 
 ```cmd
 cd PopupWindowsAPI
 ```
 
-    Run the build.bat file located in the project directory. The script will:
+3) Run the build.bat file located in the project directory. The script will:
     
     -    Check if GCC is installed; if not, it will install it via Chocolatey.
     -    Compile the PopupWindowsAPI.c file and generate the PopupWindowsAPI.exe executable.
 
-    To run the program, simply double-click on the generated PopupWindowsAPI.exe.
+4) To run the program, simply double-click on the generated PopupWindowsAPI.exe.
 
 <h3> Option 2: Visual Studio Code (with tasks.json) </h3>
 
