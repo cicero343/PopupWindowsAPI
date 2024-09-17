@@ -19,7 +19,7 @@ PopupWindowsAPI is a simple C program that demonstrates the use of the Windows A
 
 You can install and compile the program using one of the following methods:
 
-<h3> Option 1: </h3> Automated Build Script (build.bat)
+<h3> Option 1: Automated Build Script (build.bat) </h3>
 
 This method uses Chocolatey to install GCC if not already installed.
 
@@ -30,14 +30,14 @@ This method uses Chocolatey to install GCC if not already installed.
 
 To run the program, simply double-click on the generated PopupWindowsAPI.exe.
 
-- **Option 2:** Visual Studio Code (with tasks.json)
+<h3> Option 2: Visual Studio Code (with tasks.json) </h3>
 
     Make sure gcc is installed on your system.
     Open the project in Visual Studio Code.
     Use the built-in task runner by navigating to Terminal > Run Build Task. This will compile the code using the provided tasks.json.
     After the build, run PopupWindowsAPI.exe to execute the program.
 
-- **Option 3:** Manual GCC Installation and Compilation
+<h3> Option 3:** Manual GCC Installation and Compilation </h3>
 
 If you'd rather manually install and compile the program:
 
