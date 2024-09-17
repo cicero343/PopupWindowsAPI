@@ -26,6 +26,7 @@ This method uses Chocolatey to install GCC if not already installed.
     Download or clone the repository to your local machine.
     
     Run the build.bat file located in the project directory. The script will:
+    
     -    Check if GCC is installed; if not, it will install it via Chocolatey.
     -    Compile the PopupWindowsAPI.c file and generate the PopupWindowsAPI.exe executable.
 
@@ -34,8 +35,11 @@ To run the program, simply double-click on the generated PopupWindowsAPI.exe.
 <h3> Option 2: Visual Studio Code (with tasks.json) </h3>
 
     Make sure gcc is installed on your system.
+    
     Open the project in Visual Studio Code.
+    
     Use the built-in task runner by navigating to Terminal > Run Build Task. This will compile the code using the provided tasks.json.
+    
     After the build, run PopupWindowsAPI.exe to execute the program.
 
 <h3> Option 3:** Manual GCC Installation and Compilation </h3>
