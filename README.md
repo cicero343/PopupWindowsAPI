@@ -25,6 +25,16 @@ This method uses Chocolatey to install GCC if not already installed.
 
     Download or clone the repository to your local machine.
     
+```cmd
+git clone https://github.com/cicero343/PopupWindowsAPI.git
+```
+
+    Navigate to the cloned repository folder:
+
+```cmd
+cd PopupWindowsAPI
+```
+
     Run the build.bat file located in the project directory. The script will:
     
     -    Check if GCC is installed; if not, it will install it via Chocolatey.
