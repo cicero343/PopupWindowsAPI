@@ -46,13 +46,13 @@ This method uses Chocolatey to install GCC if not already installed.
 
 If you'd rather manually install and compile the program:
 
-Install GCC:
+- **Install GCC:**
 
 For Windows, you can install GCC via MinGW, MSYS2, or another GCC distribution.
 
 Ensure that gcc is added to your system's PATH.
 
-Compile and Run:
+- **Compile and Run:**
 
 Navigate to the directory containing the source code.
 
