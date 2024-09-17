@@ -26,8 +26,8 @@ This method uses Chocolatey to install GCC if not already installed.
     Download or clone the repository to your local machine.
     
     Run the build.bat file located in the project directory. The script will:
-        Check if GCC is installed; if not, it will install it via Chocolatey.
-        Compile the PopupWindowsAPI.c file and generate the PopupWindowsAPI.exe executable.
+    -    Check if GCC is installed; if not, it will install it via Chocolatey.
+    -    Compile the PopupWindowsAPI.c file and generate the PopupWindowsAPI.exe executable.
 
 To run the program, simply double-click on the generated PopupWindowsAPI.exe.
 
