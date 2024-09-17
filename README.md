@@ -19,7 +19,7 @@ PopupWindowsAPI is a simple C program that demonstrates the use of the Windows A
 
 You can install and compile the program using one of the following methods:
 
-<h3> Option 1: Automated Build Script (build.bat) </h3>
+<h3> Option 1: Automated Build Script (build.bat) **Recommended** </h3>
 
 This method uses Chocolatey to install GCC if not already installed.
 
