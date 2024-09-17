@@ -48,9 +48,9 @@ If you'd rather manually install and compile the program:
 
 - **Install GCC:**
 
--- For Windows, you can install GCC via MinGW, MSYS2, or another GCC distribution.
+- For Windows, you can install GCC via MinGW, MSYS2, or another GCC distribution.
 
--- Ensure that gcc is added to your system's PATH.
+- Ensure that gcc is added to your system's PATH.
 
 - **Compile and Run:**
 
