@@ -23,13 +23,13 @@ You can install and compile the program using one of the following methods:
 
 This method uses Chocolatey to install GCC if not already installed.
 
-    Download or clone the repository to your local machine.
+1) Download or clone the repository to your local machine.
     
 ```cmd
 git clone https://github.com/cicero343/PopupWindowsAPI.git
 ```
 
-    Navigate to the cloned repository folder:
+- Navigate to the cloned repository folder:
 
 ```cmd
 cd PopupWindowsAPI
